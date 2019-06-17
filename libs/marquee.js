@@ -11,6 +11,7 @@
  * 3. 手动切换与定时自动切换
  */
 $.fn.marquee = function(params) {
+  //
   let interval = params&&params.interval?params.interval:5000;    //自动切换时间，默认5秒
   let prevBtn = $('<button class="slider_control slider_control_prev">&lt;</button>')
   let nextBtn = $('<button class="slider_control slider_control_next">&gt;</button>')
